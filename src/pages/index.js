@@ -10,7 +10,7 @@ const IndexPage = () => (
           Working through some tutorials to learn how to design and code using
           React and Gatsby framework, which seems pretty straighforward so far.
         </p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <Link to="/video/">Watch the video</Link>
       </div>
     </div>
   </div>
