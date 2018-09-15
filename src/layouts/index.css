@@ -664,7 +664,20 @@ pre tt:after {
   color: white;
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.7);
-  padding: 16px 20px;
+  padding: 16px 40px;
   max-width: 300px;
   border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 40px;
+}
+
+@media (max-width: 640) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+  .Hero h1 {
+    font-size: 40px;
+  }
+  .Hero p {
+    font-size: 24px;
+  }
 }
