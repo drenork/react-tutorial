@@ -14,8 +14,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div
+    {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+    {/* <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
@@ -24,7 +24,8 @@ const Layout = ({ children, data }) => (
       }}
     >
       {children()}
-    </div>
+    </div> */}
+    {children()}
   </div>
 )
 
