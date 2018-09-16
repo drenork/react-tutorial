@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/card'
 
 const IndexPage = () => (
   <div>
@@ -11,6 +12,18 @@ const IndexPage = () => (
           React and Gatsby framework, which seems pretty straighforward so far.
         </p>
         <Link to="/video/">Watch the video</Link>
+      </div>
+      <div className="Cards">
+        <Card
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg')}
+        />
+        <Card
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg')}
+        />
       </div>
     </div>
   </div>
